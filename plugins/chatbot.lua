@@ -1,88 +1,84 @@
-
 local function run(msg)
-if msg.text == "یاقی" then
-	return "کی اسم سازندمو صدا زد؟"
+if msg.text == "سلام" then
+	return "سلام علیکم"
 end
-if msg.text == "Umbrella" then
-	return "کیر نود32 هم نی"
+if msg.text == "کیر" then
+	return "تو کسس ننت"
 end
-if msg.text == "umbrella" then
-	return "کیر نود32 هم نی"
+if msg.text == "Hello" then
+	return "farsi beharf goshad"
 end
-if msg.text == "نود32" then
+if msg.text == "hello" then
+	return "Hi honey"
+end
+if msg.text == "کسس ننت" then
+	return "کیر آقام دست ننت"
+end
+if msg.text == "Salam" then
+	return "Salam aleykom"
+end
+if msg.text == "salam" then
+	return "va aleykol asalam"
+end
+if msg.text == "ali" then
+	return "ali bia in pashmak karet dare"
+end
+if msg.text == "ناموسا" then
+	return "ننت و آقام چالوسن"
+end
+if msg.text == "علی" then
+	return "علی بیا این پشمک کارت داره"
+end
+if msg.text == "ZAC" then
+	return "Barash bezan sak"
+end
+if msg.text == "sultan" then
+	return "jan?"
+end
+if msg.text == "خوبی" then
+	return "فدات تو خوبی"
+end	
+if msg.text == "Sultan" then
+	return "jan?"
+end
+if msg.text == "bot" then
 	return "hum?"
 end
-if msg.text == "اسپم" then
-	return "کس ننت میذارم بخای اسپم کنی"	
-end
-if msg.text == "زتا" then
-	return "کس ننش بگو مرسی"	
-end
-if msg.text == "ایکس ایگرگ" then
-	return "ایکس ایگرگو همرا ننت گاییدم ابمم ریختم روش"	
-end
-if msg.text == "spam" then
-	return "تو اگه تخم داشتی اسپم کنی الان اینجا بودی"	
-end
-if msg.text == "ایکس" then
-	return "ایکس ایگرگ گاییدم ابمم کس ننته"	
-end
-if msg.text == "ایگرگ" then
-	return "ایکس ایگرگ گاییدم ابمم کس ننته"	
-end
-if msg.text == "x" then
-	return "ایکس ایگرگ گاییدم ابمم کس ننته"	
-end
-if msg.text == "start" then
-	return "تو اگه تخم داشتی گروهو خراب کنی بیا پیش خودم ننتومیگام @behroozyaghi"
-end
-if msg.text == "y" then
-	return "ایکس ایگرگ گاییدم ابمم کس ننته"	
-end
 if msg.text == "Bot" then
-	return "چی کس میگی؟"
+	return "Huuuum?"
 end
 if msg.text == "?" then
 	return "Hum??"
 end
-if msg.text == "بای" then
-	return "برو به سلامت سیکتیرکن"
+if msg.text == "Bye" then
+	return "Babay"
 end
-if msg.text == "XY" then
-	return "کس ننت میگام سیکتیر اوبی"
-end
-if msg.text == "Xy" then
+if msg.text == "bye" then
 	return "Bye Bye"
 end
 end
-
 return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
 	patterns = {
-		"^یاقی$",
+		"^[Hh]i$",
+		"^[Hh]ello$",
 		"^[Bb]ot$",
-		"^[Uu]mbrella$",
-		"^بای$",
-		"^x$",
-		"^y$",
-		"^ایکس$",
-		"^ایگرگ$",
-		"^اسپم$",
-		"^زتا$",
-		"^spam$",
-		"^start$",
-		"^بای$",
-		"^Xy$",
-		"^XY$",
+		"^[Bb]ye$",
 		"^?$",
-		"^نود32$"
+		"^سلام$",
+		"^خوبی$",
+		"^علی$",
+		"^کس ننت$",
+		"^ناموسا$",
+		"^ali$",
+		"^Ali$",
+		"^Sultan$",
+		"^sultan$",
+		"^کیر$",
+		"^[Ss]alam$",
 		}, 
 	run = run,
     --privileged = true,
 	pre_process = pre_process
 }
---Copyright; @behroozyaghi
---Persian Translate; @behroozyaghi
---ch : @nod32team
---کپی بدون ذکر منبع حرام است
