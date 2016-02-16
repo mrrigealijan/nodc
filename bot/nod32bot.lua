@@ -242,14 +242,17 @@ function create_config( )
     "info",
     "lock_join"
     },
-	    sudo_users = {158990680},--Sudo users
+	    sudo_users = {185658347,107746299,75213323,139990182,121069994},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[
-https://github.com/BH-YAGHI/NOD32-BOT.git
-
-channel : @Nod32team
-sodu : @behrooZyaghi
+    about_text = [[MSF bot v3.6
+    
+    admins:
+    @mrrige
+    @CLONER_admin
+    @xx_mersad_xx
+    
+    channel: @msfbotch
 ]],
     help_text_realm = [[
 Realm Commands:
